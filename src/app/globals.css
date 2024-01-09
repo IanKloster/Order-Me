@@ -18,10 +18,82 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
+
+/* Header */
+
+header img {
+  width: 8.5rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 7vh;
+}
+
+footer p {
+  color: black;
+  font-size: 0.85rem;
+}
+
+/* Marcas */
+
+.contenedor-marcas {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: white;
+}
+
+.contenedor-marcas h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+
+.contenedor-marcas .contenedor-logos {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.3rem;
+}
+
+.contenedor-logos .logosMarcas {
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  width: 6.25rem;
+  object-fit: cover;
+}
+
+/* Whatsapp Btn */
+
+.whatsapp-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: fixed;
+  bottom: 0.8rem;
+  right: 0.8rem;
+  z-index: 100;
+}
+
+.whatsapp-btn:hover {
+  background-color: rgb(64, 207, 64);
+  transition: 1s;
+}
+
