@@ -22,6 +22,13 @@ body {
 
 /* Header */
 
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 header img {
   width: 8.5rem;
 }
@@ -120,10 +127,41 @@ footer img{
 .card-price p{
   font-weight: 400;
   font-size: 1rem;
-  margin: 0 1rem;
-  height: 9rem;
 }
 
+.price-bug{
+  height: 9rem;
+  margin: 0 1rem;
+}
+
+.price-text{
+  height: 5rem;
+}
+
+@media(min-width: 1024px){
+  .price-text{
+    margin: 0 3rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .price-bug{
+    height: 6rem;
+
+  }
+
+  .card-info-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-info-fiv_hijo{
+    flex-basis: 48%;
+  }
+
+}
 
 @media (min-width: 700px) {
   .contenedor-logos .logosMarcas {
@@ -131,4 +169,14 @@ footer img{
     width: 10.25rem;
     margin:0 3rem;
   }
+}
+
+
+
+.numeros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 1rem;
 }
