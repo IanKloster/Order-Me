@@ -1,4 +1,4 @@
-export default function Marcas() {
+export default function Integraciones() {
     return (
         <>
             <section className="bg-gray-100 contenedor-marcas">

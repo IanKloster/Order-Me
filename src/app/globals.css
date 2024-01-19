@@ -35,8 +35,46 @@ header img {
 
 /* Footer */
 
+
+.container-footer{
+  padding: 0.5rem 0 2rem 0;
+}
+
 footer img{
   width: 10rem;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f070, #8c8b8b91, #f0f0f067);
+}
+
+.copyright-section{
+
+  padding: 2rem 0;
+  color: rgb(65, 65, 65);
+}
+.numeros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.copyright-section{
+  margin: 0rem 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .numeros {
+
+    flex-direction: row;
+    gap: 5rem;
+
+  }
 }
 
 /* Marcas */
@@ -172,11 +210,3 @@ footer img{
 }
 
 
-
-.numeros{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-  margin-top: 1rem;
-}
