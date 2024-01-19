@@ -210,3 +210,7 @@ hr {
 }
 
 
+.lista{
+  list-style: disc;
+  padding:0 2rem ;
+}
