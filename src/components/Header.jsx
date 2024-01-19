@@ -15,7 +15,6 @@ export default function Header() {
             <header className="bg-gray-100">
                 <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
                     <a className="block text-teal-600" href="/">
-                        <span className="sr-only">Home</span>
                         <img src="/logo.png" alt="Logo OrderMe" />
                     </a>
 
@@ -23,13 +22,10 @@ export default function Header() {
                         <nav aria-label="Global" className="hidden md:block">
                             <ul className="flex items-center gap-6 text-sm">
                                 <li>
-                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href={"/nosotros"}> About </Link>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href={"/"}> Inicio </Link>
                                 </li>
         
-                                <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/"> Careers </a>
-                                </li>
-
+                           
                                 <li>
                                     <a className="text-gray-500 transition hover:text-gray-500/75" href="/"> History </a>
                                 </li>
@@ -43,7 +39,12 @@ export default function Header() {
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/"> Blog </a>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/precios"> Precios </Link>
+                                </li>
+
+
+                                <li>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/#team"> Team </Link>
                                 </li>
                             </ul>
                         </nav>

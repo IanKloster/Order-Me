@@ -35,13 +35,13 @@ footer img{
 /* Marcas */
 
 .contenedor-marcas {
-  height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   background-color: white;
+  padding: 2rem 0 2rem 0;
 }
 
 .contenedor-marcas h2 {
@@ -49,7 +49,6 @@ footer img{
   font-weight: 600;
   color: black;
 }
-
 .contenedor-marcas .contenedor-logos {
   display: flex;
   justify-content: space-around;
@@ -125,3 +124,11 @@ footer img{
   height: 9rem;
 }
 
+
+@media (min-width: 700px) {
+  .contenedor-logos .logosMarcas {
+    height: 10.25rem;
+    width: 10.25rem;
+    margin:0 3rem;
+  }
+}
