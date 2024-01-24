@@ -5,24 +5,22 @@ export default function Funcionalidades() {
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 lg:py-8">
           <div className="mx-auto max-w-lg text-center">
 
-          <span className="flex items-center">
-              <span className="h-px flex-1 bg-black"></span>
-              <h2 className="shrink-0 px-6">Funcionalidades</h2>
-              <span className="h-px flex-1 bg-black"></span>
-            </span>
+            <div class="flex items-center justify-center">
+              <span style={{ width: "109px" }} class="h-px bg-black"></span>
+              <h2 class="px-6 text-center">Funcionalidades</h2>
+              <span style={{ width: "109px" }} class="h-px bg-black"></span>
+            </div>
 
 
-            <p className="mt-4 text-slate-600">
 
-            </p>
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 icon icon-tabler icon-tabler-building-store" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#466380" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 icon icon-tabler icon-tabler-building-store" width="100" height="100" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#466380" fill="none" strokeLinecap="round" strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M3 21l18 0" />
                 <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" />
@@ -38,11 +36,11 @@ export default function Funcionalidades() {
               <p className="mt-1 text-sm text-slate-600">
                 El sistema cuenta con todas las funciones necesarias para configurar uno o varios puntos de venta
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,11 +48,11 @@ export default function Funcionalidades() {
                 width="100"
                 height="100"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#466380"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
@@ -69,13 +67,13 @@ export default function Funcionalidades() {
                 que cada consulta sea resuelta de manera eficiente y rápida
                 según su urgencia
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 icon icon-tabler icon-tabler-analyze" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#466380" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 icon icon-tabler icon-tabler-analyze" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#466380" fill="none" strokeLinecap="round" strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" />
                 <path d="M4 13a8.1 8.1 0 0 0 15 3" />
@@ -91,13 +89,13 @@ export default function Funcionalidades() {
               <p className="mt-1 text-sm text-slate-600">
                 Actualizaciones constantes y sin costo adicional con el objetivo de incorporar nuevas funciones, mejorar la seguridad y resolver errores o imprevistos
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 icon icon-tabler icon-tabler-align-box-right-middle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#466380" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 icon icon-tabler icon-tabler-align-box-right-middle" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#466380" fill="none" strokeLinecap="round" strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M15 15h2" />
                 <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
@@ -111,13 +109,13 @@ export default function Funcionalidades() {
               <p className="mt-1 text-sm text-slate-600">
                 Se pueden realizar capacitaciones de forma virtual, o presencial en la oficina para evacuar todas las dudas referentes al funcionamiento del sistema.
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 icon icon-tabler icon-tabler-user-pentagon" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#466380" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 icon icon-tabler icon-tabler-user-pentagon" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#466380" fill="none" strokeLinecap="round" strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M13.163 2.168l8.021 5.828c.694 .504 .984 1.397 .719 2.212l-3.064 9.43a1.978 1.978 0 0 1 -1.881 1.367h-9.916a1.978 1.978 0 0 1 -1.881 -1.367l-3.064 -9.43a1.978 1.978 0 0 1 .719 -2.212l8.021 -5.828a1.978 1.978 0 0 1 2.326 0z" />
                 <path d="M12 13a3 3 0 1 0 0 -6a3 3 0 0 0 0 6z" />
@@ -131,11 +129,11 @@ export default function Funcionalidades() {
               <p className="mt-1 text-sm text-slate-600">
                 En el sistema permite configurar clientes y agregar cuentas corrientes para los mismos
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -143,11 +141,11 @@ export default function Funcionalidades() {
                 width="100"
                 height="100"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#466380"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="" />
                 <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
@@ -171,7 +169,7 @@ export default function Funcionalidades() {
                 o la opción de diseñar un menú dinámico actualizable a través
                 del sistema
               </p>
-            </a>
+            </div>
           </div>
         </div>
       </section>

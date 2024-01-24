@@ -2,14 +2,14 @@ export default function Descripcion() {
     return (
         <>
 
-            <div id="inicio" className="py-0 xl:py-14 bg-white">
+            <div id="inicio" className="py-0 py-9 xl:py-14 bg-white">
                 <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-                    <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                    <div className="space-y-6 md:space-y-0 lg:flex lg:items-center lg:gap-12">
                         <div className="md:5/12 lg:w-5/12">
                             <img src="/descripcion.jpg" alt="image" loading="lazy" width="" height="" />
                         </div>
                         <div className="md:7/12 lg:w-6/12">
-                            <h1 className="text-2xl text-gray-900 font-bold md:text-4xl">¡Bienvenidos a OrderMe - Tu Viaje Gastronómico Simplificado y Personalizado!</h1>
+                            <h1 className="text-2xl text-gray-900 font-bold md:mt-3 md:text-4xl">¡Bienvenidos a OrderMe - Tu Viaje Gastronómico Simplificado y Personalizado!</h1>
                             <div className="mt-6 text-gray-600">Hemos simplificado la forma en que disfrutas de la comida fuera de casa. No necesitas descargar ninguna aplicación; simplemente escanea el código QR en tu mesa y sumérgete en una experiencia gastronómica sin esfuerzo.
                             </div>
                             <div className="mt-4 text-gray-600">

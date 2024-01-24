@@ -32,6 +32,7 @@ header{
   top: 0;
   left: 0;
   right: 0;
+  background-color: #3D3B40;
 }
 
 header img {
@@ -40,9 +41,13 @@ header img {
 
 /* Footer */
 
+footer {
+  background-color: #3D3B40;
+}
 
 .container-footer{
   padding: 0.5rem 0 2rem 0;
+  
 }
 
 footer img{
@@ -52,7 +57,7 @@ footer img{
 hr {
   border: 0; 
   height: 1px; 
-  background-image: -webkit-linear-gradient(left, #f0f0f070, #8c8b8b91, #f0f0f067);
+  background-image: -webkit-linear-gradient(left, #ffffff10, #8c8b8b91, #f0f0f004);
 }
 
 .copyright-section{
@@ -217,4 +222,3 @@ hr {
   list-style: disc;
   padding:0 2rem ;
 }
-

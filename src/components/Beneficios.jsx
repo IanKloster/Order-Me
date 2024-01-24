@@ -4,20 +4,18 @@ export default function Beneficios() {
       <section id="beneficios" className="">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-lg text-center">
-            <span className="flex items-center">
-              <span className="h-px flex-1 bg-black"></span>
-              <h2 className="shrink-0 px-6">Beneficios</h2>
-              <span className="h-px flex-1 bg-black"></span>
-            </span>
-            <p className="mt-4 text-slate-600">
-
-            </p>
+            <div class="flex items-center justify-center">
+              <span style={{ width: "109px" }} class="h-px bg-black"></span>
+              <h2 class="px-6 text-center">Beneficios</h2>
+              <span style={{ width: "109px" }} class="h-px bg-black"></span>
+            </div>
+            
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lger:shadow-lg"
-              href="/services/digital-campaigns"
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,11 +50,11 @@ export default function Beneficios() {
                 de los clientes, mejorando su experiencia y fomentando la
                 lealtad.
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,11 +83,11 @@ export default function Beneficios() {
                 contemporánea, adaptada a las tendencias y expectativas
                 actuales.
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -121,11 +119,11 @@ export default function Beneficios() {
                 proporciona precisión en los detalles, garantizando que los
                 clientes obtengan exactamente lo que desean.
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -152,11 +150,11 @@ export default function Beneficios() {
                 de alta demanda, permitiendo una rotación más rápida de las
                 mesas.
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -195,11 +193,11 @@ export default function Beneficios() {
                 sus pedidos y realizar pagos de manera eficiente, mejorando la
                 satisfacción y la eficacia del servicio.
               </p>
-            </a>
+            </div>
 
-            <a
+            <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lg"
-              href="/services/digital-campaigns"
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -227,7 +225,7 @@ export default function Beneficios() {
                 Aprovecha la recopilación de datos del cliente para comprender
                 mejor sus preferencias y comportamientos.
               </p>
-            </a>
+            </div>
           </div>
         </div>
       </section>
