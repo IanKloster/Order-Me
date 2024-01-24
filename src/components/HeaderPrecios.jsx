@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Link as ScrollLink } from 'react-scroll';
 
+
 export default function Header() {
     const [mostrar, setMostrar] = useState(false)
 
@@ -25,42 +26,27 @@ export default function Header() {
                         <nav aria-label="Global" className="hidden md:block">
                             <ul className="flex items-center gap-6 text-sm">
                                 <li>
-                                    <ScrollLink className="cursor-pointer text-gray-500 transition hover:text-gray-500/75"
-                                        activeClass="active"
-                                        to="inicio"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-60}
-                                        duration={500}
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75"
+                                        href="/"
                                     >
                                         Inicio
-                                    </ScrollLink>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <ScrollLink
-                                        className="cursor-pointer text-gray-500 transition hover:text-gray-500/75"
-                                        activeClass="active"
-                                        to="funcionalidades"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-60}
-                                        duration={500}
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75"
+                                       
+                                        href="/#Funcionalidades"
+          
 
                                     > Funcionalidades
-                                    </ScrollLink>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <ScrollLink className="cursor-pointer text-gray-500 transition hover:text-gray-500/75"
-                                        activeClass="active"
-                                        to="beneficios"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-60}
-                                        duration={500}
-
-                                    > Beneficios </ScrollLink>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75"
+                                        href="/#Beneficios"
+                                    > Beneficios </Link>
                                 </li>
 
                                 <li>
@@ -69,8 +55,8 @@ export default function Header() {
 
                                 <li>
                                     <ScrollLink className="cursor-pointer text-gray-500 transition hover:text-gray-500/75"
-                                        activeClass="active"
-                                        to="contacto"
+                                   activeClass="active"
+                                   to="contacto"
                                         spy={true}
                                         smooth={true}
                                         offset={-60}

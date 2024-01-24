@@ -1,10 +1,9 @@
 export default function Integraciones() {
     return (
         <>
-            <section className="bg-gray-100 contenedor-marcas">
 
-                <h2>Alianzas / Integraciones</h2>
-
+            <section className="contenedor-marcas">
+                <h2>Alianzas/Integraciones</h2>
                 <article className="contenedor-logos">
 
                     <div className="logosMarcas">

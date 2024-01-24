@@ -20,6 +20,11 @@ body {
 
 }
 
+h2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 /* Header */
 
 header{
@@ -90,8 +95,6 @@ hr {
 }
 
 .contenedor-marcas h2 {
-  font-size: 2rem;
-  font-weight: 600;
   color: black;
 }
 .contenedor-marcas .contenedor-logos {
@@ -215,8 +218,3 @@ hr {
   padding:0 2rem ;
 }
 
-/* Cliente */
-
-.clientes-container h2 {
-  font-size: 1.5rem;
-}
