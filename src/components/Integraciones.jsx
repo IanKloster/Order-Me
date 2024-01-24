@@ -3,7 +3,7 @@ export default function Integraciones() {
         <>
             <section className="bg-gray-100 contenedor-marcas">
 
-                <h2>Integraciones</h2>
+                <h2>Alianzas / Integraciones</h2>
 
                 <article className="contenedor-logos">
 

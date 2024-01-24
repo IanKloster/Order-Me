@@ -12,7 +12,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="bg-gray-100 p-1">
+            <header className="bg-gray-100">
                 <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
 
                     <a className="block text-teal-600" href="/">
@@ -28,15 +28,11 @@ export default function Header() {
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/"> History </a>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/#funcionalidades"> Funcionalidades </Link>
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/"> Services </a>
-                                </li>
-
-                                <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="/"> Projects </a>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/#beneficios"> Beneficios </Link>
                                 </li>
 
                                 <li>
@@ -44,8 +40,10 @@ export default function Header() {
                                 </li>
 
                                 <li>
-                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/#team"> Team </Link>
+                                    <Link className="text-gray-500 transition hover:text-gray-500/75" href="/#contacto"> Contacto </Link>
                                 </li>
+
+                                
                             </ul>
                         </nav>
 

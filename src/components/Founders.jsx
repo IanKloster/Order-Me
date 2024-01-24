@@ -2,7 +2,7 @@ export default function Founders() {
     return (
         <>
 
-            <div id="team" className="py-20">
+            <div id="team" className="pt-3 pb-20">
                 <div className="container mx-auto px-6 md:px-12 xl:px-32">
 
                     <div className="grid gap-12 items-center md:grid-cols-2">
