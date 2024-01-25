@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Generales */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,18 +18,18 @@
   }
 }
 
-body {
-
-}
-
-h2{
+h2 {
   font-size: 2rem;
   font-weight: 400;
 }
 
+#inicio{
+  font-size: large;
+}
+
 /* Header */
 
-header{
+header {
   position: sticky;
   top: 0;
   left: 0;
@@ -39,33 +41,49 @@ header img {
   width: 8.5rem;
 }
 
+/* Lista descripción */
+
+.lista {
+  list-style: disc;
+  padding: 0 2rem;
+}
+
+
 /* Footer */
 
 footer {
   background-color: #3D3B40;
 }
 
-.container-footer{
+.container-footer {
   padding: 0.5rem 0 2rem 0;
-  
+
 }
 
-footer img{
+footer img {
   width: 10rem;
 }
 
 hr {
-  border: 0; 
-  height: 1px; 
+  border: 0;
+  height: 1px;
   background-image: -webkit-linear-gradient(left, #ffffff10, #8c8b8b91, #f0f0f004);
 }
 
-.copyright-section{
-
+.copyright-section {
   padding: 2rem 0;
   color: rgb(65, 65, 65);
+
+  text-align: center;
 }
-.numeros{
+
+@media (min-width: 300px) and (max-width:600px){
+  .copyright-section p{
+    margin: 0 2rem;
+  }
+}
+
+.numeros {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,10 +91,7 @@ hr {
   gap: 1rem;
   margin-top: 1rem;
 }
-.copyright-section{
-  margin: 0rem 0;
-  text-align: center;
-}
+
 
 @media (min-width: 768px) {
   .numeros {
@@ -102,6 +117,7 @@ hr {
 .contenedor-marcas h2 {
   color: black;
 }
+
 .contenedor-marcas .contenedor-logos {
   display: flex;
   justify-content: space-around;
@@ -114,6 +130,14 @@ hr {
   height: 6.25rem;
   width: 6.25rem;
   object-fit: cover;
+}
+
+@media (min-width: 700px) {
+  .contenedor-logos .logosMarcas {
+    height: 10.25rem;
+    width: 10.25rem;
+    margin: 0 3rem;
+  }
 }
 
 /* Whatsapp Btn */
@@ -139,7 +163,8 @@ hr {
 
 
 /* Price */
-.card-price{
+
+.card-price {
   height: 27rem;
   display: flex;
   flex-direction: column;
@@ -148,77 +173,106 @@ hr {
   text-align: center;
 }
 
-.card-price div{
+.card-price div {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 5rem;
 }
 
-.card-price h3{
+.card-price h3 {
   font-size: 1.7rem;
   font-weight: 500;
   line-height: 1;
 }
 
-.card-price h4{
+.card-price h4 {
   font-size: 2.3rem;
   font-weight: 700;
 }
 
-.card-price h4 span{
+.card-price h4 span {
   font-size: 1rem;
 }
 
-.card-price p{
+.card-price p {
   font-weight: 400;
   font-size: 1rem;
 }
 
-.price-bug{
+.price-bug {
   height: 9rem;
   margin: 0 1rem;
 }
 
-.price-text{
+.price-text {
   height: 5rem;
 }
 
-@media(min-width: 1024px){
-  .price-text{
-    margin: 0 3rem;
+@media(min-width: 840px) {
+  .price-text {
+    margin: 0 1.5rem;
+    margin-top: 0rem;
   }
-}
 
-@media (min-width: 700px) {
+  .p-uno{
+    margin-top: 1rem;
+  }
+
   .price-bug{
-    height: 6rem;
-
+    margin-top: 1.5rem;
   }
 
-  .card-info-div{
+  .card-info-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .card-info-fiv_hijo{
+  .card-info-fiv_hijo {
+    flex-basis: 48%;
+  }
+ 
+}
+
+@media (min-width: 700px) and (max-width: 840px) {
+  .price-text{
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .price-bug {
+    height: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .a-bug {
+    margin-top: 2rem;
+  }
+
+  .card-info-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-info-fiv_hijo {
     flex-basis: 48%;
   }
 
 }
 
-@media (min-width: 700px) {
-  .contenedor-logos .logosMarcas {
-    height: 10.25rem;
-    width: 10.25rem;
-    margin:0 3rem;
+@media (min-width: 300px) and (max-width: 700px) {
+  .price-text{
+    margin-bottom: 1rem;
   }
+
+  .price-bug{
+    margin-bottom: 1rem;
+  }
+
 }
 
 
-.lista{
-  list-style: disc;
-  padding:0 2rem ;
-}

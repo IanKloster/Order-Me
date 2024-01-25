@@ -1,18 +1,19 @@
 export default function Clientes() {
   return (
     <>
-      
 
-      <div className="clientes-container flex justify-center items-center flex-col pt-16">
 
-      <div class="flex items-center justify-center">
-        <span style={{ width: "109px" }} class="h-px bg-black"></span>
-        <h2 class="px-6">Clientes</h2>
-        <span style={{ width: "109px" }} class="h-px bg-black"></span>
-      </div>
+      <section className="clientes-container flex justify-center items-center flex-col pt-16">
 
-        <img width="300px" src="/nino-lobo.jpg" alt="" />
-      </div>
+        <div className="flex items-center justify-center">
+          <span style={{ width: "109px" }} className="h-px bg-black"></span>
+          <h2 className="px-6">Clientes</h2>
+          <span style={{ width: "109px" }} className="h-px bg-black"></span>
+        </div>
+
+        <a href="https://www.instagram.com/niniolobo/?hl=es" target="_blank">  <img width="300px" src="/nino-lobo.webp" alt="Logo de Niño Lobo" /> </a>
+
+      </section>
 
     </>
   )

@@ -1,24 +1,25 @@
 export default function Beneficios() {
   return (
     <>
-      <section id="beneficios" className="">
+      <section id="beneficios">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+
           <div className="mx-auto max-w-lg text-center">
-            <div class="flex items-center justify-center">
-              <span style={{ width: "109px" }} class="h-px bg-black"></span>
-              <h2 class="px-6 text-center">Beneficios</h2>
-              <span style={{ width: "109px" }} class="h-px bg-black"></span>
+
+            <div className="flex items-center justify-center">
+              <span style={{ width: "109px" }} className="h-px bg-black"></span>
+              <h2 className="px-6 text-center">Beneficios</h2>
+              <span style={{ width: "109px" }} className="h-px bg-black"></span>
             </div>
             
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+
             <div
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black-500/10 hover:shadow-black/30 hover:shadow-lger:shadow-lg"
-              
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10 icon icon-tabler icon-tabler-phone-call"
                 width="100"
                 height="100"
@@ -57,7 +58,6 @@ export default function Beneficios() {
               
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 className="w-10 h-10 icon icon-tabler icon-tabler-user-star"
                 width="100"
                 height="100"
@@ -75,7 +75,7 @@ export default function Beneficios() {
               </svg>
 
               <h2 className="mt-4 text-xl font-bold text-slate-600">
-                Otorga una experiencia más moderna para el cliente.
+                Otorga una experiencia más moderna para el cliente
               </h2>
 
               <p className="mt-1 text-sm text-slate-600">
@@ -90,7 +90,6 @@ export default function Beneficios() {
               
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 className=" h-10 w-10 text-pink-500 icon icon-tabler icon-tabler-mood-check"
                 width="100"
                 height="100"
@@ -126,7 +125,6 @@ export default function Beneficios() {
               
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10 icon icon-tabler icon-tabler-receipt"
                 width="100"
                 height="100"
@@ -157,7 +155,6 @@ export default function Beneficios() {
               
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10 icon icon-tabler icon-tabler-time-duration-0"
                 width="100"
                 height="100"
@@ -200,7 +197,6 @@ export default function Beneficios() {
               
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10 icon icon-tabler icon-tabler-user-square"
                 width="100"
                 height="100"
