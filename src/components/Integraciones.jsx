@@ -5,7 +5,7 @@ export default function Integraciones() {
                 
                 <div className="flex items-center justify-center">
                     <span style={{ width: "109px" }} className="h-px bg-black"></span>
-                    <h2 className="px-6 text-center">Alianzas / Integraciones</h2>
+                    <h2 className="px-6 text-center">Alianzas</h2>
                     <span style={{ width: "109px" }} className="h-px bg-black"></span>
                 </div>
 

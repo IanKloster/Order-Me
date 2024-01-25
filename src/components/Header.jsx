@@ -69,7 +69,7 @@ export default function Header() {
                                 </li>
 
                                 <li>
-                                    <Link className="text-slate-50 transition hover:text-gray-400/75" href="/precios"> Precios </Link>
+                                    <Link className="text-slate-50 transition hover:text-gray-400/75" href="/precios"> Precio </Link>
                                 </li>
 
                                 <li>
