@@ -6,7 +6,7 @@ export default function Precios() {
     return (
         <>
             <HeaderPrecios/>
-            <section className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-12 m-auto">
+            <section id="Precio" className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-12 m-auto">
                 <div className="card-info-div grid grid-cols-1 gap-4 sm:grid-cols-1 sm:items-stretch md:grid-cols-2 md:gap-8">
                     
                 <div className="card-info-fiv_hijo divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">

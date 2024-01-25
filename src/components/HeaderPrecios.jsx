@@ -50,7 +50,14 @@ export default function Header() {
                                 </li>
 
                                 <li>
-                                    <Link className="cursor-pointer text-slate-50 transition hover:text-gray-400/75" href="/precios"> Precio </Link>
+                                    <ScrollLink className="cursor-pointer text-slate-50 transition hover:text-gray-400/75" 
+                                    activeClass="active"
+                                    to="Precio"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-60}
+                                    duration={500}
+                                    > Precio </ScrollLink>
                                 </li>
 
                                 <li>
@@ -150,7 +157,14 @@ export default function Header() {
                                         </svg>
 
                                         <span className="text-sm font-medium"> <Link className="cursor-pointer text-slate-50 transition hover:text-gray-400/75"
-                                            href={"/precios"}> Precio </Link>  </span>
+                                            activeClass="active"
+                                            to="Precio"
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-60}
+                                            duration={500}
+                                            
+                                            > Precio </Link>  </span>
                                     </div>
                                 </li>
 
