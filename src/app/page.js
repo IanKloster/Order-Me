@@ -1,5 +1,6 @@
 import Beneficios from "@/components/Beneficios";
 import Clientes from "@/components/Clientes";
+import Demo from "@/components/Demo";
 import Descripcion from "@/components/Descripcion";
 import Footer from "@/components/Footer";
 import Founders from "@/components/Founders";
@@ -18,6 +19,7 @@ export default function Home() {
       <Beneficios/>
       <Integraciones/>
       <Clientes/>
+      <Demo/>
       <Founders/>
       <WhatsappBtn/>
       <Footer/>

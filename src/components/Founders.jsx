@@ -12,6 +12,8 @@ export default function Founders() {
                             <div>
                                 <h4 className="text-2xl">Ian Kloster</h4>
                                 <span className="block text-sm text-gray-500">Founder</span>
+                                <span className="block text-sm text-gray-500">CEO</span>
+                                <span className="block text-sm text-gray-500">Product manager</span>
                             </div>
                         </div>
 
@@ -20,14 +22,15 @@ export default function Founders() {
                                 src="/coo-founder.webp" alt="Martín Staltari, COO de OrderMe" loading="lazy" width="640" height="805" />
                             <div>
                                 <h4 className="text-2xl">Martín Staltari</h4>
-                                <span className="block text-sm text-gray-500">COO</span>
+                                <span className="block text-sm text-gray-500">CO-Founder</span>
+                                <span className="block text-sm text-gray-500">Director de operaciones</span>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </section>
-            
+
         </>
     )
 }

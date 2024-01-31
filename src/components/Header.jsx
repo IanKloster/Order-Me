@@ -11,9 +11,7 @@ export default function Header() {
     }
 
     function cambiarEstado() {
-        setTimeout(() => {
-            setMostrar(!mostrar)
-        }, 600)
+        setMostrar(!mostrar)
     }
 
     return (
@@ -59,10 +57,10 @@ export default function Header() {
                                 <li>
                                     <ScrollLink className="cursor-pointer text-slate-50 transition hover:text-gray-400/75"
                                         activeClass="active"
-                                        to="beneficios"
+                                        to="Beneficios"
                                         spy={true}
                                         smooth={true}
-                                        offset={-60}
+                                        offset={-200}
                                         duration={500}
 
                                     > Beneficios </ScrollLink>
@@ -122,12 +120,12 @@ export default function Header() {
                                         </svg>
 
                                         <span className="text-sm font-medium"> <ScrollLink onClick={cambiarEstado} className="cursor-pointer text-slate-50 transition hover:text-gray-400/75"
-                                            activeClass="active"
-                                            to="inicio"
-                                            spy={true}
-                                            smooth={true}
-                                            offset={-60}
-                                            duration={500}> Inicio </ScrollLink>  </span>
+                                             activeClass="active"
+                                             to="inicio"
+                                             spy={true}
+                                             smooth={true}
+                                             offset={-280}
+                                             duration={500}> Inicio </ScrollLink>  </span>
                                     </div>
                                 </li>
 
@@ -150,10 +148,10 @@ export default function Header() {
 
                                         <span className="text-sm font-medium"> <ScrollLink onClick={cambiarEstado} className="cursor-pointer text-slate-50 transition hover:text-gray-400/75"
                                             activeClass="active"
-                                            to="funcionalidades"
+                                            to="Funcionalidades"
                                             spy={true}
                                             smooth={true}
-                                            offset={-60}
+                                            offset={-130}
                                             duration={500}> Funcionalidades </ScrollLink>  </span>
                                     </div>
                                 </li>
@@ -168,10 +166,10 @@ export default function Header() {
 
                                         <span className="text-sm font-medium"> <ScrollLink onClick={cambiarEstado} className="cursor-pointer text-slate-50 transition hover:text-gray-400/75"
                                             activeClass="active"
-                                            to="beneficios"
+                                            to="Beneficios"
                                             spy={true}
                                             smooth={true}
-                                            offset={-60}
+                                            offset={-130}
                                             duration={500}> Beneficios </ScrollLink>  </span>
                                     </div>
                                 </li>
@@ -202,7 +200,7 @@ export default function Header() {
                                             to="contacto"
                                             spy={true}
                                             smooth={true}
-                                            offset={-60}
+                                            offset={-130}
                                             duration={500}> Contacto </ScrollLink>  </span>
                                     </div>
                                 </li>
@@ -212,7 +210,7 @@ export default function Header() {
                         </section>
                     </>
                 }
-                
+
             </header>
         </>
     )

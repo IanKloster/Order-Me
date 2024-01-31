@@ -50,7 +50,7 @@ export default function Precios() {
                         <div className="card-price p-6 sm:px-8">
                             <div>
                             <h3>Por terminal</h3>
-                            <h4>$20.000  <span>x mes</span></h4>
+                            <h4>$50.000  <span>x mes</span></h4>
                             
                             </div>
                             <p className="price-bug ">Accedé a las herramientas de gestión que te permitirán profesionalizar tu negocio al precio más bajo del mercado. El pago se debe efectuar una vez por mes al finalizar el primer mes de prueba. (No incluye IVA)</p>
