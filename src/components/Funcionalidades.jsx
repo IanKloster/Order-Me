@@ -354,7 +354,7 @@ export default function Funcionalidades() {
                 Calculadora de huella de carbono para el comercio
               </h3>
 
-              <p id="Beneficios" className="mt-1 text-sm text-slate-600">
+              <p id="beneficios" className="mt-1 text-sm text-slate-600">
                 Herramienta que evalúa y muestra la huella ambiental de las operaciones del comercio, ayudándoles a tomar decisiones más sostenibles.
               </p>
             </div>

@@ -60,7 +60,7 @@ export default function Header() {
                                         to="Beneficios"
                                         spy={true}
                                         smooth={true}
-                                        offset={-200}
+                                        offset={-30}
                                         duration={500}
 
                                     > Beneficios </ScrollLink>
@@ -169,7 +169,7 @@ export default function Header() {
                                             to="Beneficios"
                                             spy={true}
                                             smooth={true}
-                                            offset={-130}
+                                            offset={-280}
                                             duration={500}> Beneficios </ScrollLink>  </span>
                                     </div>
                                 </li>

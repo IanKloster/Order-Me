@@ -145,7 +145,7 @@ export default function Header() {
                                         </svg>
 
                                         <span className="text-sm font-medium"> <Link onClick={cambiarEstado} className="cursor-pointer text-slate-50 transition hover:text-gray-400/75"
-                                            href={"/#Beneficios"}> Beneficios </Link>  </span>
+                                            href={"/#beneficios"}> Beneficios </Link>  </span>
                                     </div>
                                 </li>
 
