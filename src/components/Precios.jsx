@@ -49,7 +49,7 @@ export default function Precios() {
                     <div className="card-info-fiv_hijo divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm ">
                         <div className="card-price p-6 sm:px-8">
                             <div>
-                            <h3>Por terminal</h3>
+                            <h3>Por sucursal</h3>
                             <h4>$50.000  <span>x mes</span></h4>
                             
                             </div>
